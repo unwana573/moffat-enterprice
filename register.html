@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup-Eazylife</title>
+    <link rel="icon" href="2_20220827_122600_0001.png">
+    <link rel="stylesheet" href="/css/register.css">
+    <link rel="icon" href="https://fontawesome.com" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="content">    
+            <img src="2_20220827_122600_0001.png" alt="" width="120">
+            <div class="image"></div>
+            <!-- <div class="text">start fore free & Get Attractive offer Today </div> -->
+        </div>
+
+        <form class="form" id="form">
+            
+            <div class="social">
+                <div class="title">Get Started</div>
+            <div class="question">
+                Already have an Account? <br>
+                 <a href="login.html" class="active" >Sign in</a>
+            
+                <div class="btn">
+                    <div class="btn1">
+                        <img src="https://img.icons8.com/color/38/000000/google-logo.png" alt="">
+                            Sign up
+
+                    </div>
+                    <div class="btn2"> 
+                        <a href="https://web.facebook.com/Eazylife-page-101193022735172?_rdc=1&_rdr" >
+                        <img src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png" alt=""><p>join</p> 
+                        </a>
+                    </div>
+                </div> 
+            </div>
+            
+                <div class="or">or</div>
+            
+            </div>
+            
+            <!-- username input here -->
+
+            <div>
+                <label for="username">User name</label>
+                <i class="fas fa-user" ></i>
+                <input type="username" name="username" class="username" id="username" onclick="registerUser" placeholder="Sandiego" >
+                <i class="fas fa-exclamation-circle failure-icon" ></i>
+                <i class="fas fa-check-circle success-icon" ></i>
+                <div class="error"></div>
+            </div> 
+
+            <!-- Email input here -->
+
+            <div>
+                <label for="email">Email</label>
+                <i class="fas fa-envelope" ></i>
+                <input type="email" name="email" class="email" id="email" onclick="registerUser" placeholder="abc@gmail.com">
+                <i class="fas fa-exclamation-circle failure-icon" ></i>
+                <i class="fas fa-check-circle success-icon" ></i>
+                <div class="error"></div>
+            </div> 
+            
+            <!-- Country -->
+
+            <div>
+                <label for="country">Country</label>
+                <i class="fas fa-map" ></i>
+                <input type="country" name="country" class="country" id="country" onclick="registerUser" placeholder="Country">
+                <i class="fas fa-exclamation-circle failure-icon" ></i>
+                <i class="fas fa-check-circle success-icon" ></i>
+                <div class="error"></div>
+            </div> 
+
+            <!-- Password -->
+
+            <div>
+                <label for="confirm">Password</label>
+                <i class="fas fa-lock" ></i>
+                <input type="password" name="password" class="password" id="password" onclick="registerUser" placeholder="Password here">
+                <i class="fas fa-exclamation-circle failure-icon" ></i>
+                <i class="fas fa-check-circle success-icon" ></i>
+                <div class="error"></div>
+            </div> 
+            
+            <!-- Confirm password -->
+            
+            <div>
+                <label for="confirm">Confirm</label>
+                <i class="fas fa-key" ></i>
+                <input type="password" name="password" class="password" id="confirm" onclick="registerUser" placeholder="Confirm Password here">
+                <i class="fas fa-exclamation-circle failure-icon" ></i>
+                <i class="fas fa-check-circle success-icon" ></i>
+                <div class="error"></div>
+            </div> 
+            
+            
+
+            <button type="submit" onclick="submit()" id="submit" ><a href="/Test run/index.html">Submit</a></button>
+            
+        </form>
+    </div>
+
+    <script src="/js/register.js"></script>
+</body>
+</html>
+
+
+
+    
